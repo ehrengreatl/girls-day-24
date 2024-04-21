@@ -1,0 +1,28 @@
+/**
+** Beispiel für die Schreibweise einer CSS-Anweisung mit einem Tagselektor
+tag {
+  border-color: black;
+}
+
+** Beispiel für die Schreibweise einer CSS-Anweisung mit einem Klassenselektor
+.klassenname {
+  border-color: black;
+}
+**/
+
+/**
+CSS Anweisung, um 2 Spalten zu erzeugen
+**/
+.animals {
+  background: floralwhite;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+/**
+CSS Anweisung, um den Knöpfen einen Hintegrund zu geben, wenn sie ausgewählt sind
+**/
+.active {
+  background: orange;
+}
