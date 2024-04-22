@@ -14,7 +14,6 @@ tag {
 CSS Anweisung, um 2 Spalten zu erzeugen
 **/
 .animals {
-  background: floralwhite;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
