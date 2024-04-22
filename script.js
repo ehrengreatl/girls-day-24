@@ -29,7 +29,7 @@ $(document).ready(function () {
   
   
     // Hier wird der Knopf programmiert, der alles anzeigt:
-    $("buttonAll").click(function () {
+    $(".buttonAll").click(function () {
         // Wähle beide Div-Elemente aus, die angezeigt werden sollen
         $().show();
         $().show();
